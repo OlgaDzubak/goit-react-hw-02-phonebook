@@ -1,0 +1,17 @@
+.contact_form {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 20px;
+    margin-bottom: 50px;
+}
+.contact_form .input_name,
+.contact_form .input_number{
+    display: flex;
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.submit_btn{
+    padding: 5px 10px;
+    height: fit-content;
+}

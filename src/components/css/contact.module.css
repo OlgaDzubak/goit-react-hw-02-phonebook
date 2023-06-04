@@ -1,0 +1,38 @@
+.contact{
+    align-items: center;
+    font-size: 15px;
+    height: 18px;
+
+}
+.contact:hover{
+    background-color: rgb(155, 199, 214);
+    border-bottom: 1px solid gray;
+}
+.contact .contact_div{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.contact .contact_p_name{
+    font-weight: 700;
+    width: 250px;
+}
+.contact .contact_a_number{
+    text-decoration: none;
+    color: black;
+    width: 120px;
+}
+.contact .delete_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    padding: 5px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;    
+}
+

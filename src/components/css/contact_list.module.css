@@ -1,0 +1,12 @@
+.contact_list_div{
+    max-height: 300px;
+    margin-top: 20px;
+    overflow-y: scroll;
+
+}
+.contact_list_div .contact_list{
+    list-style:decimal;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;    
+}
