@@ -1,9 +1,9 @@
 import { Component } from 'react';
-import {ContactForm} from './contact_form';
-import {ContactList} from './contact_list';
-import {Filter} from './filter';
+import {ContactForm} from './components/phonebook/jsx/contact_form';
+import {ContactList} from './components/phonebook/jsx/contact_list';
+import {Filter} from './components/phonebook/jsx/filter';
 import { Notify } from 'notiflix';
- import '../css/App.css';
+import './App.css';
 
 export class App extends Component {
    
