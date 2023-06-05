@@ -1,7 +1,7 @@
 import { Component } from 'react';
-import {ContactForm} from './components/phonebook/jsx/contact_form';
-import {ContactList} from './components/phonebook/jsx/contact_list';
-import {Filter} from './components/phonebook/jsx/filter';
+import {ContactForm} from './phonebook/jsx/contact_form';
+import {ContactList} from './phonebook/jsx/contact_list';
+import {Filter} from './phonebook/jsx/filter';
 import { Notify } from 'notiflix';
 import './App.css';
 
