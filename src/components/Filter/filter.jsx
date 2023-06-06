@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import css from '../css/filter.module.css';
+import css from './filter.module.css';
 
 export class Filter extends Component {
 

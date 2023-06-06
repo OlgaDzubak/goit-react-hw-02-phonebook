@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import css from '../css/contact_form.module.css';
+import css from './contact_form.module.css';
 
 const INITIAL_STATE = {
     name: '',

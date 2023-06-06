@@ -1,7 +1,7 @@
 import { Component } from 'react';
-import {Contact} from '../jsx/contact'
+import {Contact} from '../Contact/contact'
 import {nanoid} from 'nanoid';
-import css from '../css/contact_list.module.css';
+import css from './contact_list.module.css';
 
 export class ContactList extends Component {
    
